@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Clippy")]
+[assembly: AssemblyTitle("MasterDevs.Clippy")]
 [assembly: AssemblyDescription("Treat the clipboard like a Stream")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("MasterDevs")]
-[assembly: AssemblyProduct("Clippy")]
+[assembly: AssemblyProduct("MasterDevs.Clippy")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
