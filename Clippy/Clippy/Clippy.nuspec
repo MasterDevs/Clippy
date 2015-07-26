@@ -8,7 +8,6 @@
     <owners>$author$</owners>
     <licenseUrl>https://github.com/MasterDevs/Clippy/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/MasterDevs/Clippy</projectUrl>
-    <iconUrl></iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Initial release</releaseNotes>

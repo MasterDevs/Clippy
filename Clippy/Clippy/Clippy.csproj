@@ -46,6 +46,7 @@
     <Compile Include="ReadLineTextReader.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Clippy.nuspec" />
     <None Include="CoolWhipReadMe.md" />
     <None Include="packages.config" />
   </ItemGroup>
