@@ -68,7 +68,7 @@ namespace Clippy
                 {
                     return -1; // eof
                 }
-                m_line += "\r\n"; // need to readd the newline that ReadLine() stripped
+                //m_line += "\r\n"; // need to readd the newline that ReadLine() stripped
             }
             char c = m_line[m_idx];
             m_idx++;
