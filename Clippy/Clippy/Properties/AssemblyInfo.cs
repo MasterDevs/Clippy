@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MasterDevs.Clippy")]
-[assembly: AssemblyDescription("Treat the clipboard like a Stream")]
+[assembly: AssemblyDescription("Treat the clipboard like a TextReader and TextWriter")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("MasterDevs")]
 [assembly: AssemblyProduct("MasterDevs.Clippy")]
