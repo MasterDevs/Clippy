@@ -13,24 +13,30 @@ If you are in a WPF application, you shouldn't need to worry about this.
 If you are in a console application, you will need to make sure that you are using a STAThread.
 The easiest way is to decorate your startup method with the `STAThreadAttribute` like so:
 
-    [STAThread]
-    private static int Main(string[] args)
-    {
-        // ...
-    }
+```csharp
+[STAThread]
+private static int Main(string[] args)
+{
+  // ...
+}
+```
 
 ## Reading from the clipboard
 To read from the clipboard, simply create a new `ClipboardReader`
 
-    using (var clippy = new ClipboardReader())
-	{
-		var clipboardText = clippy.ReadToEnd();
-	}
+```csharp
+using (var clippy = new ClipboardReader())
+{
+  var clipboardText = clippy.ReadToEnd();
+}
+```
 
 ## Writing to the clipboard
 To write to the clipboard, simply create a `ClipboardWriter`
 
-    using (var clippy = new ClipboardWriter())
-	{
-		clippy.Write("Hello World");
-	}
+```csharp
+using (var clippy = new ClipboardWriter())
+{
+  clippy.Write("Hello World");
+}
+```
